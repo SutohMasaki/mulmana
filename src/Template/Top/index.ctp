@@ -4,4 +4,5 @@
 <div>
     <h1>Helo Wrold!</h1>
     <p class="text-red"><?= $teststr ?></p>
+    <?= $results['Name'] ?>
 </div>
