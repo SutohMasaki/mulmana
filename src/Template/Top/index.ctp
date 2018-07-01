@@ -6,7 +6,7 @@
  <head>
      <title>Mulmana</title>
      <?php echo $this->element('Common/bootstrap'); ?>
-     <?php echo $this->Html->css('header'); ?>
+     <?php echo $this->Html->css('sticky-footer'); ?>
  </head>
  <body class="home">
    <?php echo $this->element('Common/header'); ?>
@@ -16,7 +16,7 @@
   <div>
     <p class="text-red"><?= $teststr ?></p>
     <?= $results['Name'] ?>
-    <button class="btn btn-default"><a href="top">topへ</a></button>
   </div>
+  <?php echo $this->element('Common/footer'); ?>
 </body>
 </html>

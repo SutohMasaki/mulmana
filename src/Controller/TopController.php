@@ -14,16 +14,13 @@ class TopController extends AppController
   {
     // レイアウトを指定
     $this->viewBuilder()->layout('top');
-
-    $this->viewBuilder()->layout('common');
-
     // Modelの取得
     $this->loadModel('TopsTable');
   }
   public function index()
   {
     //変数teststrをセット
-    $this->set('teststr', 'テスト文章てすてすてす！');
+    $this->set('teststr', 'testだよー');
 
     //DBのデータを受け取りたい
     $this->Top = TableRegistry::get('test');
