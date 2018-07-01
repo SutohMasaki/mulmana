@@ -1,22 +1,16 @@
-<!-- ヘッダー -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-  <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-        </li>
-      </ul>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Mulmana -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation"></button>
+        <a class="navbar-brand" href="top">Mulmana</a>
+      </div>
+      <!-- Config -->
+      <div class="collapse navbar-collapse" id="navigation">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation"></button>
+        <a class="navbar-text navbar-right"><img src='/img/mulmana/config.jpg' width='50' height='50' alt='config'></a>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</body>

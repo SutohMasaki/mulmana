@@ -6,13 +6,10 @@
  <head>
      <title>Mulmana</title>
      <?php echo $this->element('Common/bootstrap'); ?>
-     <link href="css/scrolling-nav.css" rel="stylesheet">
+     <?php echo $this->Html->css('header'); ?>
  </head>
  <body class="home">
    <?php echo $this->element('Common/header'); ?>
-   <header class="row">
-
-   </header>
    <div class="header-title">
        <h1>TOP画面</h1>
    </div>
