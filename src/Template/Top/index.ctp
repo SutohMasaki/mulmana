@@ -5,10 +5,13 @@
 <html>
  <head>
      <title>Mulmana</title>
+     <?php echo $this->element('Common/bootstrap'); ?>
+     <link href="css/scrolling-nav.css" rel="stylesheet">
  </head>
  <body class="home">
+   <?php echo $this->element('Common/header'); ?>
    <header class="row">
-     <?php echo $this->element('Common/bootstrap'); ?>
+
    </header>
    <div class="header-title">
        <h1>TOP画面</h1>
