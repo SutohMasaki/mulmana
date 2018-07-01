@@ -14,6 +14,7 @@
 namespace App\View;
 
 use Cake\View\View;
+use BootstrapUI\View\UIView;
 
 /**
  * Application View
@@ -36,5 +37,9 @@ class AppView extends View
      */
     public function initialize()
     {
+      parent::initialize();
+      // これを指定しなければ、「/vendor/friendsofcake/bootstrap-ui/src/Template/Layout/default.cpt」が使われる
+      // 'default'指定ならcakePHPのテンプレートが使用される
+      $this->layout = 'top';
     }
 }

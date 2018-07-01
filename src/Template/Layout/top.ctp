@@ -12,5 +12,6 @@
  * @since         0.10.0
  * @license       https://opensource.org/licenses/mit-license.php MIT License
  */
-
-echo $this->fetch('content');
+ echo $this->element('Common/header');
+// Top/index.ctp
+  echo $this->fetch('content');

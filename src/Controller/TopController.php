@@ -14,6 +14,9 @@ class TopController extends AppController
   {
     // レイアウトを指定
     $this->viewBuilder()->layout('top');
+
+    $this->viewBuilder()->layout('common');
+
     // Modelの取得
     $this->loadModel('TopsTable');
   }
