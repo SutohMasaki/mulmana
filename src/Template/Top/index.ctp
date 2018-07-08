@@ -6,7 +6,7 @@
  <head>
      <title>Mulmana</title>
      <?php echo $this->element('Common/bootstrap'); ?>
-     <?php echo $this->Html->css('sticky-footer'); ?>
+     <?php echo $this->Html->css('footer'); ?>
  </head>
  <body class="home">
    <?php echo $this->element('Common/header'); ?>

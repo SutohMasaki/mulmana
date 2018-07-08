@@ -9,6 +9,7 @@ use Cake\ORM\TableRegistry;
 class TopController extends AppController
 {
   private $Top = '';
+  private $Controller = 'top';
 
   public function initialize()
   {
