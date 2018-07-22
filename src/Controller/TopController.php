@@ -23,17 +23,18 @@ class TopController extends AppController
     //変数teststrをセット
     $this->set('teststr', 'testだよー');
 
-    //DBのデータを受け取りたい
-    $this->Top = TableRegistry::get('test');
-    $top = $this->Top->find()->all();
 
     // 格納用 配列
     $results = [];
+    //DBのデータを取得
+    $this->Top = TableRegistry::get('application');
+    $top = $this->Top->find()->all();
 
     foreach ($top as $value => $val) {
-      $results = $val;
+      $results[] = $val;
     }
 
     $this->set('results',$results);
   }
+
 }
