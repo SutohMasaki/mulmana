@@ -7,7 +7,8 @@
  */
 
 html {
-    font-family: sans-serif; /* 1 */
+    font-family: "JFドット東雲ゴシック16", sans-serif; /* 1 */
+    src: local('JFドット東雲ゴシック16-Regular');
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
 }
