@@ -1,4 +1,13 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "JFドット東雲ゴシック16"; /* 1 */
+  src: local('JFドット東雲ゴシック16-Regular');
+}
+
+
 .application_icon {
   width: 50px;
-  height: : 50px;
+  height: 50px;
+  color:
 }
