@@ -15,7 +15,6 @@
        <h1>Mulmana_TOP</h1>
    </div>
   <div>
-    <p class="" ><?= $teststr ?></p>
       <ul class="application_list">
 <?php foreach ($results as $result => $val): ?>
         <li class="application">

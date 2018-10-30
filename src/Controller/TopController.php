@@ -20,10 +20,6 @@ class TopController extends AppController
   }
   public function index()
   {
-    //変数teststrをセット
-    $this->set('teststr', 'testだよー');
-
-
     // 格納用 配列
     $results = [];
     //DBのデータを取得
